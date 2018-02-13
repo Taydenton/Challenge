@@ -1,0 +1,142 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* end of reset */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.bus-info {
+	box-sizing: border-box;
+  background-color: #3C3ACF;
+  border-bottom: .5px solid #808080;
+  width: 100%;
+  height: 76px;
+  padding: 10px;
+}
+
+body {
+  background-color: #333;
+  font-family: helvetica, sans-serif;
+  font-size: 16px;
+	color: white;
+}
+
+.map {
+  background-image: url("../images/map.png");
+}
+
+.direction {
+	padding-left: 20%;
+}
+
+.time {
+	padding-left: 70%;
+	padding-bottom: 20px;
+}
+
+.map {
+	height: 264px;
+	width: 100%;
+}
+
+.bus-number {
+	float: left;
+	padding: 10px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+h2 {
+  line-height: auto;
+  font-size: 16px;
+	font-style: italic;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 375px;
+}
+
+h4 {
+	font-size: 17px
+}
+
+.nav-bar {
+	text-align: center;
+	padding-top: 30px;
+}
+
+nav {
+  margin: 0 auto;
+  position: fixed;
+  width: 375px;
+  background-color: #3C3ACF;
+  height: 70px;
+}
+
+.bus-list {
+  padding-bottom: 50px
+  margin: 3%;
+  width: 100%;
+  float: left;
+}
+
+.arrow-left {
+  width: 100%;
+  float: left;
+  padding-bottom: 10px;
+	padding-top: 5px;
+	font-size: .7em;
+}
