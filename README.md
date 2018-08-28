@@ -1,2 +1,6 @@
-# css-exercise-three
-CSS exercise focused on box model
+# Challenge
+
+# Busy Bus
+
+This repository contains the source code for a bus scheduling app.
+
